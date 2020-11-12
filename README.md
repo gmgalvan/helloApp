@@ -33,3 +33,8 @@ see task run
 tkn taskrun describe echo-hello-world-task-run
 see more details
 tkn taskrun logs echo-hello-world-task-run
+
+
+k8s and gcloud secrets container egistry 
+https://blog.container-solutions.com/using-google-container-registry-with-kubernetes
+https://cloud.google.com/iam/docs/creating-managing-service-account-keys#creating_service_account_keyss
