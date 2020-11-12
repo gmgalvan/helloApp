@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-deployment
+  name: api-hello-deployment
   labels:
-    app: hello-app
-  spec:
-    replicas: 2
+    app: api-hello
+spec:
+  replicas: 2
   selector:
     matchLabels:
-      app: hello-app
-    template:
-      metadata:
-        labels:
-          app: hello-app
-        spec:
-          containers:
-          - name: hello-app
-            image: gmgalvan/hello-app:0.0.1
-            ports:
-            - containerPort: 8080
+      app: api-hello
+  template:
+    metadata:
+      labels:
+        app: api-hello
+    spec:
+      containers:
+      - name: api-hello
+        image: gmgalvan/api-hello:0.0.1
+        ports:
+        - containerPort: 8080
