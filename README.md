@@ -29,3 +29,7 @@ see task
 tkn task describe echo-hello-world
 run task
 kubectl apply -f <name-of-taskrun-file.yaml>
+see task run 
+tkn taskrun describe echo-hello-world-task-run
+see more details
+tkn taskrun logs echo-hello-world-task-run
