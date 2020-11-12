@@ -22,3 +22,10 @@ monitor teh isntallation
 kubectl get pods --namespace tekton-pipelines --watch
 install tekton cli
 https://github.com/tektoncd/cli
+
+create task
+kubectl apply -f <name-of-task-file.yaml>
+see task
+tkn task describe echo-hello-world
+run task
+kubectl apply -f <name-of-taskrun-file.yaml>
