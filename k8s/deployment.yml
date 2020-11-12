@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: api-hello
-        image: gmgalvan/api-hello:0.0.1
+        image: gcr.io/playground-s-11-b7763957/hello-app:v0.0.1
         ports:
         - containerPort: 8080
