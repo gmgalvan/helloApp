@@ -16,6 +16,6 @@ metadata:
         spec:
           containers:
           - name: hello-app
-            image: gmgalvan/hello:0.0.1
+            image: gmgalvan/hello-app:0.0.1
             ports:
             - containerPort: 8080
